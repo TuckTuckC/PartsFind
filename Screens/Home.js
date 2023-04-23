@@ -1,11 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
-function Home({Navigation}) {
+function Home() {
   return (
     <View>
       <Text>Home Screen</Text>
-      <Button onPress={() => Navigation.push('About')} title='About'></Button>
     </View>
   );
 };
